@@ -35,7 +35,7 @@ public class Library {
         Author author = new Author("Alex Ternovan", "alex.ternovan@fanduel.com");
 
         // Create a book
-        Book book = new Book("The Nothingness", 2024, author, 99.99);
+        Book book = new Book("The Nothingness", 2024, author, 99.98);
 
         // Print book details
         System.out.println("Book " + book.getName() + " (" + book.getPrice() + " RON), by " +
